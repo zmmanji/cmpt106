@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+    	<div class="row">
+    		<h1 class="col-xs-12">Header</h1>
+    	</div>
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <form class="">
+                    <div class="form-group row">
+                        <div class="col-md-6 form-group">
+                            <label for="courseSelect">Course</label>
+                            <select class="form-control" id="courseSelect">
+                                <option>CMPT</option>
+                                <option>MACM</option>
+                                <option>PSYC</option>
+                                <option>HSC</option>
+                                <option>IAT</option>
+                                <option>ENSC</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label for="courseNumberSelect">Number</label>
+                            <select class="form-control" id="courseNumberSelect">
+                                <option>106</option>
+                                <option>225</option>
+                                <option>307</option>
+                                <option>383</option>
+                                <option>371</option>
+                                <option>433</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- date -->
+                    <div class="form-group">
+                        <label for="example-date-input">Date</label>
+                        <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+                    </div>
+                    <!-- time -->
+                    <div class="form-group row">
+                        <!-- start time -->
+                        <div class="form-group col-md-6">
+                            <label for="start-time-input">Start Time</label>
+                            <input class="form-control" type="time" value="20:32:00" id="start-time-input">
+                        </div>
+                        <!-- end time -->
+                        <div class="form-group col-md-6">
+                            <label for="end-time-input">End Time</label>
+                            <input class="form-control" type="time" value="22:00:00" id="end-time-input">
+                        </div>
+                    </div>
+                    <!-- campus -->
+                    <fieldset class="form-group">
+                        <legend>Campus</legend>
+                        <!-- <div class="row"> -->
+                        <div class="col-md-4">
+                            <label class="form-check-inline">
+                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked> Burnaby
+                            </label>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-check-inline">
+                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2"> Surrey
+                            </label>
+                        </div>
+                        <div class="col-md-4">
+                            <label class="form-check-inline">
+                                <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3"> Vancouver
+                            </label>
+                        </div>
+                        <!-- </div> -->
+                    </fieldset>
+                    <!-- location -->
+                    <div class="form-group">
+                        <label for="exactLocation">Location</label>
+                        <input type="text" class="form-control" id="exactLocation" aria-describedby="locationHelp" placeholder="Enter your study location on campus">
+                        <small id="locationHelp" class="form-text text-muted">For instance: Room #1004 in the library.</small>
+                    </div>
+                    <!-- # of attendees -->
+                    <div class="form-group">
+                        <label for="max-attendees">Max Number of Attendees</label>
+                        <input class="form-control" type="number" value="5" id="max-attendees">
+                    </div>
+                    <!-- description -->
+                    <div class="form-group">
+                        <label for="exampleTextarea">Description</label>
+                        <textarea class="form-control" id="exampleTextarea" rows="4" aria-describedby="descriptionHelp"></textarea>
+                        <small id="descriptionHelp" class="form-text text-muted">For instance, "I will be studying for Midterm 1".</small>
+                    </div>
+                    <!-- create button -->
+                    <button type="CREATE SESSION" class="btn btn-primary btn-lg col-xs-12 col-md-6 offset-md-3">START SESSION</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+        	<h3 class="col-xs-12">Footer</h3>
+        </div>
+    </div>
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/js/bootstrap.min.js" integrity="VjEeINv9OSwtWFLAtmc4JCtEJXXBub00gtSnszmspDLCtC0I4z4nqz7rEFbIZLLU" crossorigin="anonymous"></script>
+</body>
+
+</html>
